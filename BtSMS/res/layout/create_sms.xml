@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout_inbox"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/editText_message"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView_number_characters"
+        android:layout_marginLeft="@dimen/abc_action_bar_default_height"
+        android:layout_marginRight="@dimen/abc_action_bar_default_height"
+        android:background="@color/fiel_text_sms"
+        android:ems="10"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:maxLength="152"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView_number_characters"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/editText_message"
+        android:layout_below="@+id/buttonSend"
+        android:text="152"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <Button
+        android:id="@+id/buttonSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/editText_number_phone"
+        android:text="Send" />
+
+    <EditText
+        android:id="@+id/editText_number_phone"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignBottom="@+id/ButtonContacts"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/ButtonContacts"
+        android:layout_weight="1"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="phone" />
+
+    <ImageButton
+        android:id="@+id/ButtonContacts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ic_contacts" />
+
+</RelativeLayout>

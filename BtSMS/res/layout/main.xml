@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:windowSoftInputMode="adjustResize"
+    tools:context="com.example.btsms.MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/linearLayoutDevice"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/device_bar"
+        android:gravity="bottom"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView_device"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/device_bar"
+            android:gravity="center"
+            android:text="No device"
+            android:textColor="@color/TextColor"
+            android:textColorHint="@color/TextColor"
+            android:textColorLink="@color/TextColor"
+            android:textSize="14sp" />
+
+        <ImageButton
+            android:id="@+id/ButtonNewConnection"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_new_device" />
+    </LinearLayout>
+
+    <TabHost
+        android:id="@android:id/tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linearLayoutDevice" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <LinearLayout
+                    android:id="@+id/tab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/background"
+                    android:orientation="horizontal" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal" >
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:background="@color/background" >
+            </TabWidget>
+        </LinearLayout>
+    </TabHost>
+
+</RelativeLayout>

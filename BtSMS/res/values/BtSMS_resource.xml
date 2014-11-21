@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <color name="background">#dedfde</color>
+    <color name="device_bar">#8c8c8c</color>
+    <color name="TextColor">#000000</color>
+    <color name="send_color">#73fa4e</color>
+    <string name="delete_button">Delete</string><color name="fiel_text_sms">#ffffff</color>
+    <string name="reply_button">Reply</string><string-array name="select_scan_mode">
+        <item> UNREAD</item><item >READ</item>
+        
+        <item >UNSENT</item>
+        <item >SENT</item>
+    </string-array>
+    <string name="alertDialogBtnDelete">No selected sms!</string>
+    <string name="alertDialogClose">Close</string>
+    <string name="alertDialogBtnDeleteTitle">Delete sms</string>
+    <string name="alertDialogBtnDeleteMessage">Are you sure you want to delete the selected SMS?</string>   
+	<string name="alertDialogBtnReplyMessage">Not selected or selected more than one.</string>    
+	<string name="alertDialogBtnReplyErr">Failed to find the sender\'s number.</string>  
+    <string name="alertDialogBtnContactsErr">No selected bluetooth device.</string>
+    <string name="alertDialogBtnSendErr">No phone number or selected bluetooth device.</string>  
+    <string name="alertDialogBtnConnOk">Yes</string>
+    <string name="alertDialogBtError">Error</string>    
+    <string name="alertDialogBtnConnectionTitle">Device found:</string>  
+    <string name="alertDialogSelectBankMemory">Please select where to read SMS</string>  
+    
+    <string name="alertDialogStatusSendSmsTitle">Send</string>  
+    <string name="alertDialogStatusSendSmsOk">Message sent successfully.</string>      
+    <string name="alertDialogStatusSendSmsErr">Message not sent.</string>     
+    <string name="ProgressDialogDiscoveryDeviceTitle">Discovery remote device</string>
+    <string name="ProgressDialogDiscoveryDeviceCancel">Cancel</string>
+    <string name="ProgressDialogWaitTitle">Please wait</string>    
+    <string name="BtErrorAdapterNotSupport">Adapter not support</string>
+    <string name="ErrorBtAdapterEnableRequest">Adapter not enable</string>
+    <string name="ErrorBtRemoteNoSelected">Remote device not select</string>
+    <string name="ErrorBtReadPhoneBooks">Error reading the phone book</string>
+    <string name="PhoneIsNotSupported">Phone is not supported</string>
+    <string name="textView_bank_memory_text">Memory is not selected</string>
+    <string name="textView_bank_memory_text_sim">SIM-card memory</string>
+    <string name="textView_bank_memory_text_phone">Phone memory</string>
+    
+
+    
+</resources>
