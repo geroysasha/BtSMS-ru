@@ -11,6 +11,7 @@
         <item >UNSENT</item>
         <item >SENT</item>
     </string-array>
+    <string name="textDeviceFieldDefaul">No device</string>
     <string name="alertDialogBtnDelete">No selected sms!</string>
     <string name="alertDialogClose">Close</string>
     <string name="alertDialogBtnDeleteTitle">Delete sms</string>

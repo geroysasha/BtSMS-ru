@@ -1220,14 +1220,14 @@ containing a value of this type.
         public static final int support_simple_spinner_dropdown_item=0x7f03001c;
     }
     public static final class string {
-        public static final int BtErrorAdapterNotSupport=0x7f0a0021;
-        public static final int ErrorBtAdapterEnableRequest=0x7f0a0022;
-        public static final int ErrorBtReadPhoneBooks=0x7f0a0024;
-        public static final int ErrorBtRemoteNoSelected=0x7f0a0023;
-        public static final int PhoneIsNotSupported=0x7f0a0025;
-        public static final int ProgressDialogDiscoveryDeviceCancel=0x7f0a001f;
-        public static final int ProgressDialogDiscoveryDeviceTitle=0x7f0a001e;
-        public static final int ProgressDialogWaitTitle=0x7f0a0020;
+        public static final int BtErrorAdapterNotSupport=0x7f0a0022;
+        public static final int ErrorBtAdapterEnableRequest=0x7f0a0023;
+        public static final int ErrorBtReadPhoneBooks=0x7f0a0025;
+        public static final int ErrorBtRemoteNoSelected=0x7f0a0024;
+        public static final int PhoneIsNotSupported=0x7f0a0026;
+        public static final int ProgressDialogDiscoveryDeviceCancel=0x7f0a0020;
+        public static final int ProgressDialogDiscoveryDeviceTitle=0x7f0a001f;
+        public static final int ProgressDialogWaitTitle=0x7f0a0021;
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
          */
         public static final int abc_action_bar_home_description=0x7f0a0001;
@@ -1268,28 +1268,29 @@ containing a value of this type.
         /**  Description of a share target (both in the list of such or the default share button) in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] 
          */
         public static final int abc_shareactionprovider_share_with_application=0x7f0a000b;
-        public static final int alertDialogBtError=0x7f0a0018;
-        public static final int alertDialogBtnConnOk=0x7f0a0017;
-        public static final int alertDialogBtnConnectionTitle=0x7f0a0019;
-        public static final int alertDialogBtnContactsErr=0x7f0a0015;
-        public static final int alertDialogBtnDelete=0x7f0a000f;
-        public static final int alertDialogBtnDeleteMessage=0x7f0a0012;
-        public static final int alertDialogBtnDeleteTitle=0x7f0a0011;
-        public static final int alertDialogBtnReplyErr=0x7f0a0014;
-        public static final int alertDialogBtnReplyMessage=0x7f0a0013;
-        public static final int alertDialogBtnSendErr=0x7f0a0016;
-        public static final int alertDialogClose=0x7f0a0010;
-        public static final int alertDialogSelectBankMemory=0x7f0a001a;
-        public static final int alertDialogStatusSendSmsErr=0x7f0a001d;
-        public static final int alertDialogStatusSendSmsOk=0x7f0a001c;
-        public static final int alertDialogStatusSendSmsTitle=0x7f0a001b;
-        public static final int app_name=0x7f0a0029;
+        public static final int alertDialogBtError=0x7f0a0019;
+        public static final int alertDialogBtnConnOk=0x7f0a0018;
+        public static final int alertDialogBtnConnectionTitle=0x7f0a001a;
+        public static final int alertDialogBtnContactsErr=0x7f0a0016;
+        public static final int alertDialogBtnDelete=0x7f0a0010;
+        public static final int alertDialogBtnDeleteMessage=0x7f0a0013;
+        public static final int alertDialogBtnDeleteTitle=0x7f0a0012;
+        public static final int alertDialogBtnReplyErr=0x7f0a0015;
+        public static final int alertDialogBtnReplyMessage=0x7f0a0014;
+        public static final int alertDialogBtnSendErr=0x7f0a0017;
+        public static final int alertDialogClose=0x7f0a0011;
+        public static final int alertDialogSelectBankMemory=0x7f0a001b;
+        public static final int alertDialogStatusSendSmsErr=0x7f0a001e;
+        public static final int alertDialogStatusSendSmsOk=0x7f0a001d;
+        public static final int alertDialogStatusSendSmsTitle=0x7f0a001c;
+        public static final int app_name=0x7f0a002a;
         public static final int delete_button=0x7f0a000d;
-        public static final int hello_world=0x7f0a002a;
+        public static final int hello_world=0x7f0a002b;
         public static final int reply_button=0x7f0a000e;
-        public static final int textView_bank_memory_text=0x7f0a0026;
-        public static final int textView_bank_memory_text_phone=0x7f0a0028;
-        public static final int textView_bank_memory_text_sim=0x7f0a0027;
+        public static final int textDeviceFieldDefaul=0x7f0a000f;
+        public static final int textView_bank_memory_text=0x7f0a0027;
+        public static final int textView_bank_memory_text_phone=0x7f0a0029;
+        public static final int textView_bank_memory_text_sim=0x7f0a0028;
     }
     public static final class style {
         /** 

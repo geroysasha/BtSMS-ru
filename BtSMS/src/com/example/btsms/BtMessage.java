@@ -122,6 +122,7 @@ public class BtMessage implements btInterface {
 			@Override
 			public void onClick(DialogInterface dialog, int which) {
 				// TODO Auto-generated method stub
+				deviceField.setText(R.string.textDeviceFieldDefaul);
 				dialog.cancel();
 			}
 		})		
@@ -134,8 +135,8 @@ public class BtMessage implements btInterface {
 				//запоминаем выбранный девайс
 				deviceField.setText(arrDiscoveryDevice[which]);
 				RemoteDeviceRfcommPort = PortRequest(arrDiscoveryDevice[which]);
-				Log.e(this.toString(), "port=" + String.valueOf(RemoteDeviceRfcommPort));
-				Toast.makeText(context, String.valueOf(which), Toast.LENGTH_SHORT).show();
+				//Log.e(this.toString(), "port=" + String.valueOf(RemoteDeviceRfcommPort));
+				//Toast.makeText(context, String.valueOf(which), Toast.LENGTH_SHORT).show();
 			}
 		});
 		builder.create().show();
@@ -173,6 +174,7 @@ public class BtMessage implements btInterface {
 			@Override
 			public void onClick(DialogInterface dialog, int which) {
 				// TODO Auto-generated method stub
+				number_phone.setText("");
 				dialog.cancel();
 			}
 		})		

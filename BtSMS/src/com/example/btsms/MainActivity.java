@@ -330,6 +330,8 @@ public class MainActivity extends Activity implements OnClickListener, btInterfa
         
     	//создадим диалоговые окна
     	btMessage.createDialog(btHandler, textView_bank_memory);
+    	//текст по умолчанию
+    	deviceField.setText(R.string.textDeviceFieldDefaul);
     }
     
     //чтение из БД и вывод информации в  ListView_inbox

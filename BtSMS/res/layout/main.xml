@@ -25,7 +25,6 @@
             android:layout_weight="1"
             android:background="@color/device_bar"
             android:gravity="center"
-            android:text="No device"
             android:textColor="@color/TextColor"
             android:textColorHint="@color/TextColor"
             android:textColorLink="@color/TextColor"
